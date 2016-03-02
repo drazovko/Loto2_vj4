@@ -199,6 +199,7 @@
             this.bttnUplati.TabIndex = 7;
             this.bttnUplati.Text = "Uplati";
             this.bttnUplati.UseVisualStyleBackColor = true;
+            this.bttnUplati.Click += new System.EventHandler(this.bttnUplati_Click);
             // 
             // bttnOdigraj
             // 
@@ -208,6 +209,7 @@
             this.bttnOdigraj.TabIndex = 8;
             this.bttnOdigraj.Text = "Odigraj";
             this.bttnOdigraj.UseVisualStyleBackColor = true;
+            this.bttnOdigraj.Click += new System.EventHandler(this.bttnOdigraj_Click);
             // 
             // lblNatpis
             // 
